@@ -1,5 +1,5 @@
 # SQL
-SQL-toolkit
+#### SQL-toolkit
 This SQL script creates two views: a standard view (newview) and a materialized view (materialized_view). The purpose of these views is to provide structured access to product-related information by joining tables containing product details, subcategories, and categories.
 
 1. Standard View (newview)
