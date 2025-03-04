@@ -21,7 +21,7 @@ The materialized_view stores data physically, improving query performance. It us
 3. Query Execution Plan
 
 To analyze query execution plans, SET SHOWPLAN_ALL ON is enabled before selecting from both views. SHOWPLAN_ALL provides execution details without running the queries. The WITH (NOEXPAND) hint is used while querying materialized_view, ensuring that the optimizer uses the indexed view instead of expanding the underlying query.
-
+![Local Image](image.png)
 #### Summary
 
 This script demonstrates how to create and optimize views for efficient data retrieval. The standard view provides flexibility without storage overhead, while the materialized view enhances performance by precomputing results and indexing them.
